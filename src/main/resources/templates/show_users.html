@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:each="user : ${users}">
+        <h1 th:text="${user}"></h1>
+    </div>
+
+<form action="/user/create">
+    <button type="submit">to create</button>
+</form>
+
+
+</body>
+</html>

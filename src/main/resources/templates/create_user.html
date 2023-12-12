@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <form action="/user/create" method="GET">
+        <label for="name" class="form-label">Note title</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter title" name="name">
+        <button type="submit">Create</button>
+    </form>
+
+    <form action="/user/show">
+        <button type="submit">show all</button>
+    </form>
+
+
+
+<!--    <form th:action="@{/note/delete}" method="post" class="d-inline">-->
+<!--        <input type="hidden" name="id" th:value="${note.id}"/>-->
+<!--        <button type="submit" class="btn btn-primary">Delete 🗑️</button>-->
+<!--    </form>-->
+
+</body>
+</html>
